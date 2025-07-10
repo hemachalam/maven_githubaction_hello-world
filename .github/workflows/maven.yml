@@ -43,7 +43,7 @@ jobs:
 
       # Upload JAR as an artifact (optional)
       - name: Upload JAR artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: hello-world-jar
           path: target/*.jar
